@@ -12,4 +12,22 @@
 body {
   font-family: "Shantell Sans", cursive;
   overscroll-behavior-x: auto;
+  background: url("assets/pattern\ 239.gif");
+  color: #f2f0ef;
+}
+
+html:before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.16) 50%);
+  z-index: 2;
+  background-size:
+    100% 2px,
+    3px 100%;
+  pointer-events: none;
 }
