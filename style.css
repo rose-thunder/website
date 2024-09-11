@@ -12,7 +12,7 @@
 body {
   font-family: "Shantell Sans", cursive;
   overscroll-behavior-x: auto;
-  background: url("assets/pattern\ 239.gif");
+  background: black;
   color: #f2f0ef;
 }
 
@@ -30,4 +30,8 @@ html:before {
     100% 2px,
     3px 100%;
   pointer-events: none;
+}
+
+h1 {
+  text-align: center;
 }
