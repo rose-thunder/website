@@ -14,6 +14,8 @@ body {
   overscroll-behavior-x: auto;
   background: black;
   color: #f2f0ef;
+  height: 100%;
+  margin: 0;
 }
 
 html:before {
