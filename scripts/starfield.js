@@ -47,7 +47,7 @@ for (var i = 0; i < count; i++) {
 }
 
 // main loop
-var fps = 50;
+var fps = 60;
 setInterval(function() {
   c.clearRect(0, 0, w, h);
 
