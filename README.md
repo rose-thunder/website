@@ -4,8 +4,8 @@ An _improved_ personal website that will host my coding projects, personal inter
 
 ## Todo List
 
-- [ ] Create screensaver thingy on the home page
-- [ ] Music controls
+- [x] Create screensaver like thing on the home page
+- [ ] Music player with controls
 - [ ] Have a usable mobile experience
 
 ### Pages
