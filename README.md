@@ -7,6 +7,7 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [x] Create screensaver like thing on the home page
 - [ ] Music player with controls
 - [ ] Have a usable mobile experience
+- [x] Create scanlines in css
 
 ### Pages
 
