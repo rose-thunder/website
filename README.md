@@ -1,4 +1,4 @@
-# website
+# transdevil
 
 An _improved_ personal website that will host my coding projects, personal interests, a blog, my music, and my art.
 
@@ -11,4 +11,8 @@ An _improved_ personal website that will host my coding projects, personal inter
 
 ### Pages
 
-- [ ] Recreate shrine pages from old site
+- [ ] Recreate shrine pages from [old site](https://thetransgenderdevil.neocities.org/)
+- [ ] Make blog page
+- [ ] Make coding projects pages
+- [ ] Make art page
+- [ ] Make music pages
