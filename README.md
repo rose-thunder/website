@@ -15,4 +15,5 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Make blog page
 - [ ] Make coding projects pages
 - [ ] Make art page
-- [ ] Make music pages
+- [ ] Make music page
+- [x] Create a wii menu on the home page
