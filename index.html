@@ -6,19 +6,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>transdevil.site</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="wii.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet" />
 </head>
 
-<body style="background: black; margin: 0; height: 100%">
-  <h1>transdevil.site</h1>
-  <div class="main" id="main">
-    <canvas id="starfield"></canvas>
+<body style="background: #f8f8f8; margin: 0; height: 100%">
+  <header class="title">
+    <h1>transdevil.site</h1>
+    <div class="main" id="main">
+      <canvas id="starfield"></canvas>
+    </div>
     <script src="scripts/starfield.js"></script>
-  </div>
-  <div id="menu" class="win7"></div>
+  </header>
+  <!--wii menu stuff modified from https://github.com/cornetespoir/wii-menu-page -->
+  <main id="wii">
+    <ul class="navigation">
+      <li>
+        <a href="#channel-1">
+          <img src="assets/wii disc channel.png" alt="empty Wii disc channel menu icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#channel-2">
+          <img src="assets/mii-channel.jpg" alt="Wii Mii channel" />
+        </a>
+      </li>
+      <li>
+        <a href="#channel-3">
+          <img src="assets/wii shop channel.jpg" alt="Wii Shop channel" />
+        </a>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- start channel 1 -->
+    <div id="channel-1" class="content full">
+      <div class="container">
+        <header></header>
+        <div class="wii">Wii menu content</div>
+        <div class="bottom">
+          <a href="#" class="button">
+            <span class="corner"></span>
+            <span class="text">Menu</span>
+          </a>
+          <a href="" class="button">
+            <span class="corner"></span>
+            <span class="text">Start</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end channel 1 -->
+    <!-- start channel 2 -->
+    <div id="channel-2" class="content full">
+      <div class="container">
+        <header></header>
+        <div class="wii">Wii menu content</div>
+        <div class="bottom">
+          <a href="#" class="button">
+            <span class="corner"></span>
+            <span class="text">Menu</span>
+          </a>
+          <a href="" class="button">
+            <span class="corner"></span>
+            <span class="text">Start</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end channel 2 -->
+    <!-- start channel 3 -->
+    <div id="channel-3" class="content">
+      <div class="container">
+        <p>Popout content</p>
+        <a href="#" class="cancel">Cancel</a>
+      </div>
+    </div>
+    <!-- end channel 3 -->
+  </main>
+  <div class="bottom-text">:3</div>
+  <footer>
+    <div class="button-content">
+      <a class="button" href="/">
+        <span class="corner"></span>
+        <span class="text">Home</span>
+      </a>
+    </div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="m"></div>
+    <div class="button-content right">
+      <a class="button" href="/ask">
+        <span class="corner"></span>
+        <span class="text">Ask</span>
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -11,8 +11,6 @@
 
 body {
   font-family: "Shantell Sans", cursive;
-  text-align: center;
-  color: #f2f0ef;
 }
 
 html:before {
@@ -29,4 +27,8 @@ html:before {
     100% 2px,
     3px 100%;
   pointer-events: none;
+}
+
+h1 {
+  text-align: center;
 }

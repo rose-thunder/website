@@ -63,7 +63,7 @@ setInterval(function() {
     // draw star
     c.beginPath();
     c.arc(x, y, r, 0, 2 * Math.PI, false);
-    c.fillStyle = "white";
+    c.fillStyle = "black";
     //var brightness = Math.random() * 255;
     //c.fillStyle = "rgb(" + brightness + "," + brightness + "," + brightness + ")";
     c.fill();
