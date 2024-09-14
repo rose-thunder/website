@@ -13,7 +13,8 @@ body {
   font-family: "Shantell Sans", cursive;
 }
 
-html:before {
+html:before,
+html:after {
   content: " ";
   display: block;
   position: fixed;
