@@ -28,3 +28,7 @@ html:before {
     3px 100%;
   pointer-events: none;
 }
+
+h1 {
+  text-align: center;
+}
