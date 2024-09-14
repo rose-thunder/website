@@ -4,7 +4,6 @@ An _improved_ personal website that will host my coding projects, personal inter
 
 ## Todo List
 
-- [x] Create screensaver like thing on the home page
 - [ ] Music player with controls
 - [ ] Have a usable mobile experience
 - [x] Create scanlines in css
@@ -17,3 +16,4 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Make art page
 - [ ] Make music page
 - [x] Create a wii menu on the home page
+- [x] Create screensaver like thing on the home page
