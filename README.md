@@ -8,11 +8,22 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Have a usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
-- [ ] Make a dating sim? 
+- [ ] Make a dating sim?
 
 ### Pages
 
 - [ ] Remake shrine pages from [old site](https://thetransgenderdevil.neocities.org/)
+  - [x] Khonjin House Shrine
+  - [ ] LEGO Mega Shrine
+  - [ ] Pikmin Shrine
+  - [ ] Minecraft Shrine
+  - [ ] LISA RPG Shrine
+- [ ] Make new shrine pages
+  - [ ] Kingdom Hearts Shrine
+  - [ ] Metal Gear Shrine
+  - [ ] Fire Emblem Shrine
+  - [ ] Object Show Shrine
+  - [ ] Total Drama Shrine
 - [x] Make blog page
 - [ ] Make coding projects pages
 - [ ] Make art page
