@@ -1,0 +1,24 @@
+body {
+  background: url(/site/assets/nurple-static-bright.gif);
+  color: #ffffe4;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  color: #ffffe4;
+}
+
+.title {
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+.title h1 {
+  font-size: 5vw;
+}
+
+.title a {
+  font-size: 1.25vw;
+}
