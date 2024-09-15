@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>transdevil.site</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="wii.css" rel="stylesheet" type="text/css" />
+  <link href="pages/index/wii.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
@@ -19,29 +19,29 @@
     <div class="main" id="main">
       <canvas id="starfield"></canvas>
     </div>
-    <script src="scripts/starfield.js"></script>
+    <script src="pages/index/starfield.js"></script>
   </header>
   <!--wii menu stuff modified from https://github.com/cornetespoir/wii-menu-page -->
   <main id="wii">
     <ul class="navigation">
       <li>
         <a href="#channel-1">
-          <img src="assets/wii disc channel.png" alt="empty Wii disc channel menu icon" />
+          <img src="site/assets/wii disc channel.png" alt="empty Wii disc channel menu icon" />
         </a>
       </li>
       <li>
         <a href="#channel-2">
-          <img src="assets/mii-channel.jpg" alt="Wii Mii channel" />
+          <img src="site/assets/mii-channel.jpg" alt="Wii Mii channel" />
         </a>
       </li>
       <li>
         <a href="#channel-3">
-          <img src="assets/wii shop channel.jpg" alt="Wii Shop channel" />
+          <img src="site/assets/wii shop channel.jpg" alt="Wii Shop channel" />
         </a>
       </li>
       <li>
         <a href="#channel-4">
-          <img src="assets/check-mii-out.jpg" alt="Check Mii Out channel" />
+          <img src="site/assets/check-mii-out.jpg" alt="Check Mii Out channel" />
         </a>
       </li>
       <li></li>
@@ -71,13 +71,21 @@
     <div id="channel-2" class="content full">
       <div class="container">
         <header></header>
-        <div class="wii">Wii menu content</div>
+        <div class="wii">
+          This channel leads you to my blog where I post what ever comes to my
+          mind. Here is a chronologically ordered list of my blog posts.
+          <ol>
+            <li>
+              <a href="pages/blog/blog.html#one">A New Beginning! - 9/15/24</a>
+            </li>
+          </ol>
+        </div>
         <div class="bottom">
           <a href="#" class="button">
             <span class="corner"></span>
             <span class="text">Menu</span>
           </a>
-          <a href="" class="button">
+          <a href="pages/blog/blog.html" class="button">
             <span class="corner"></span>
             <span class="text">Start</span>
           </a>
@@ -106,7 +114,19 @@
     <!-- start channel 4 -->
     <div id="channel-4" class="content">
       <div class="container">
-        <p>Popout content</p>
+        <p class="about-me">
+          Welcome to my website! This website is an online collection of
+          myself. This website is made by me, Elli Cano and I am a game
+          developer, programmer, and artist.
+          <br />
+          This is a complete rewrite of my
+          <a href="https://thetransgenderdevil.neocities.org/">old site</a>
+          from scratch. The reason for the complete rewrite is firstly, that
+          many pages contained outdated information. The outdated information
+          was littered everywhere so it would be hard to fix every tiny little
+          thing. Secondly, I didn't like the layout of my website at all.
+          <br />
+        </p>
         <a href="#" class="cancel">Cancel</a>
       </div>
     </div>
