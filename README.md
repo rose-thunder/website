@@ -12,8 +12,8 @@ An _improved_ personal website that will host my coding projects, personal inter
 
 ### Pages
 
-- [ ] Recreate shrine pages from [old site](https://thetransgenderdevil.neocities.org/)
-- [ ] Make blog page
+- [ ] Remake shrine pages from [old site](https://thetransgenderdevil.neocities.org/)
+- [x] Make blog page
 - [ ] Make coding projects pages
 - [ ] Make art page
 - [ ] Make music page
