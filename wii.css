@@ -9,6 +9,10 @@ a {
   color: #222;
 }
 
+.about-me a {
+  text-decoration: underline;
+}
+
 main ul.navigation {
   display: flex;
   width: 90%;
