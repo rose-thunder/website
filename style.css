@@ -33,3 +33,7 @@ html:after {
 h1 {
   text-align: center;
 }
+
+.about-me a {
+  text-decoration: underline;
+}
