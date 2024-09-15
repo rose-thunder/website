@@ -380,3 +380,7 @@ footer {
 .button-content.right .button {
   margin-left: 1rem;
 }
+
+.wii ol {
+  text-align: left;
+}
