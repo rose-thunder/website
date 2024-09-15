@@ -22,3 +22,23 @@ a {
 .title a {
   font-size: 1.25vw;
 }
+
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.post {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.post p {
+  max-width: 50%;
+  margin-block: 0.5em;
+}
