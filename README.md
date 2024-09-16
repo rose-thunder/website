@@ -8,7 +8,7 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Have a usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
-- [ ] Make a dating sim?
+- [ ] Make a game?
 
 ### Pages
 
