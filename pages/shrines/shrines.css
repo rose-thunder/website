@@ -1,0 +1,42 @@
+body {
+  background: url(../../site/assets/labg.jpg);
+  color: #faf9f6;
+}
+
+a {
+  color: #faf9f6;
+}
+
+.shrines p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.shrines {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #faf9f6;
+  padding: 10px;
+  border-radius: 15px;
+  background: url(../../site/assets/sky.png);
+}
+
+.title {
+  text-align: center;
+}
+
+.bottom {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  color: #4f666a;
+}
+
+main a {
+  color: #4f666a;
+}
