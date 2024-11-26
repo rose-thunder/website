@@ -31,4 +31,4 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Make music page
 - [x] Create a wii menu on the home page
 - [x] Create screensaver like thing on the home page
-- [ ] Make a page about being a system
+- [ ] Make a page for the sapphire system
