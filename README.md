@@ -16,6 +16,9 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Remake shrine pages from [old site](https://thetransgenderdevil.neocities.org/)
   - [x] Khonjin House Shrine
   - [ ] LEGO Mega Shrine
+    - [ ] Ninjago
+    - [ ] Bionicle
+    - [ ] Hero Factory
   - [ ] Pikmin Shrine
   - [x] Minecraft Shrine
   - [ ] LISA RPG Shrine
@@ -31,4 +34,5 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Make music page
 - [x] Create a wii menu on the home page
 - [x] Create screensaver like thing on the home page
-- [ ] Make a page for the sapphire system
+- [ ] Make a page for the sapphire system?
+- [ ] Make a cruated youtube list
