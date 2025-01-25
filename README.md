@@ -29,7 +29,6 @@ An _improved_ personal website that will host my coding projects, personal inter
   - [ ] Object Show Shrine
   - [ ] Dragon Ball Shrine
 - [x] Make blog page
-- [x] Make coding projects pages
 - [ ] Make art page
 - [ ] Make music page
 - [x] Create a wii menu on the home page
