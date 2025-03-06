@@ -8,8 +8,8 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Have an usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
-- [ ] Make a game?
 - [ ] Create a mailbox
+- [ ] Make a web game?
 
 ### Pages
 
@@ -17,14 +17,12 @@ An _improved_ personal website that will host my coding projects, personal inter
   - [x] Khonjin House Shrine
   - [ ] LEGO Mega Shrine
     - [ ] Ninjago
-    - [ ] Bionicle
-    - [ ] Hero Factory
+    - [ ] Bionicle + Hero Factory
   - [ ] Pikmin Shrine
   - [x] Minecraft Shrine
   - [ ] LISA RPG Shrine
 - [ ] Make new shrine pages
   - [ ] Kingdom Hearts Shrine
-  - [ ] Metal Gear Shrine
   - [ ] Fire Emblem Shrine
   - [ ] Object Show Shrine
   - [ ] Dragon Ball Shrine
@@ -32,6 +30,5 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Make art page
 - [ ] Make music page
 - [x] Create a wii menu on the home page
-- [x] Create screensaver like thing on the home page
-- [ ] Make a page for the sapphire system?
-- [ ] Make a cruated youtube list
+- [x] Create screensaver thing on the home page
+- [ ] Make a cruated youtube recommendations list
