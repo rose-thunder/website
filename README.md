@@ -32,3 +32,4 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [x] Create a wii menu on the home page
 - [x] Create screensaver thing on the home page
 - [ ] Make a cruated youtube recommendations list
+- [ ] Make a page for my post-apocalyptic OC world
