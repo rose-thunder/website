@@ -4,7 +4,7 @@ An _improved_ personal website that will host my coding projects, personal inter
 
 ## Todo List
 
-- [ ] Make a music player with controls
+- [ ] Make a music player with controls?
 - [ ] Have an usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
@@ -32,4 +32,4 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [x] Create a wii menu on the home page
 - [x] Create screensaver thing on the home page
 - [ ] Make a cruated youtube recommendations list
-- [ ] Make a page for my post-apocalyptic OC world
+- [ ] Make a page for my video game about an anarachist utopia
