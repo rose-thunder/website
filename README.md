@@ -1,10 +1,10 @@
 # [transdevil.site](https://transdevil.site/)
 
-An _improved_ personal website that will host my coding projects, personal interests, a blog, my art, and my music.
+An _improved_ personal website that will host my projects, personal interests, a blog, and my art.
 
 ## Todo List
 
-- [ ] Make a music player with controls
+- [ ] Make a music player with controls?
 - [ ] Have an usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
@@ -24,11 +24,10 @@ An _improved_ personal website that will host my coding projects, personal inter
 - [ ] Make new shrine pages
   - [ ] Kingdom Hearts Shrine
   - [ ] Fire Emblem Shrine
-  - [ ] Object Show Shrine
   - [ ] Dragon Ball Shrine
 - [x] Make blog page
 - [ ] Make art page
-- [ ] Make music page
 - [x] Create a wii menu on the home page
 - [x] Create screensaver thing on the home page
 - [ ] Make a cruated youtube recommendations list
+- [ ] Make a page for my video game about an anarachist utopia
