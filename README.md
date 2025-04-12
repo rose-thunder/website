@@ -1,6 +1,6 @@
 # [transdevil.site](https://transdevil.site/)
 
-An _improved_ personal website that will host my coding projects, personal interests, a blog, my art, and my music.
+An _improved_ personal website that will host my projects, personal interests, a blog, and my art.
 
 ## Todo List
 
