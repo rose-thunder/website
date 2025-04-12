@@ -24,7 +24,6 @@ An _improved_ personal website that will host my projects, personal interests, a
 - [ ] Make new shrine pages
   - [ ] Kingdom Hearts Shrine
   - [ ] Fire Emblem Shrine
-  - [ ] Object Show Shrine
   - [ ] Dragon Ball Shrine
 - [x] Make blog page
 - [ ] Make art page
