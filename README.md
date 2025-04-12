@@ -28,7 +28,6 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [ ] Dragon Ball Shrine
 - [x] Make blog page
 - [ ] Make art page
-- [ ] Make music page
 - [x] Create a wii menu on the home page
 - [x] Create screensaver thing on the home page
 - [ ] Make a cruated youtube recommendations list
