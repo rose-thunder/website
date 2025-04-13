@@ -4,12 +4,13 @@ An _improved_ personal website that will host my projects, personal interests, a
 
 ## Todo List
 
-- [ ] Make a music player with controls?
 - [ ] Have an usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
 - [ ] Create a mailbox?
 - [ ] Make a web game?
+- [ ] Redesign my home page
+- [ ] Have a music player for specific pages
 
 ### Pages
 
