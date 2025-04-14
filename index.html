@@ -6,17 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>transdevil.site</title>
   <link href="pages/style.css" rel="stylesheet" type="text/css" />
-  <!-- <link href="pages/index/wii.css" rel="stylesheet" type="text/css" /> -->
   <link href="pages/index/home.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet" />
   <link rel="icon" type="image/x-icon" href="site/assets/favicon.png" />
-  <script src="pages/index/light.js"></script>
 </head>
 
-<body style="margin: 0; height: 100%">
+<body style="margin: 0; height: 100vh">
   <header class="title">
     <h1><i>elli's web haven</i></h1>
     <table class="pages">
@@ -30,8 +28,10 @@
   </header>
   <main class="haven">
     <hr />
-    <div id="light"></div>
-    <!-- <canvas id="tunnel"></canvas> -->
+    <div id="light" class="light" style="--horizontal: 1; --vertical: 1">
+      welcome to my website
+    </div>
+    <script src="pages/index/light.js"></script>
     <!-- <canvas id="starfield"></canvas> -->
     <!-- <script src="pages/index/starfield.js"></script>-->
     <hr />

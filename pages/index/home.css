@@ -1,15 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+
 body {
   background: url(../../site/assets/forest-min.jpg);
   background-size: cover;
+  overflow: hidden;
+  font-family: "UnifrakturMaguntia", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-#tunnel {
-  position: absolute;
-  inset: 0;
-}
+.light {
+  position: relative;
+  font-size: 10rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.input {
-  position: absolute;
-  left: 0;
-  top: 0;
+  &__copy {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    color: rgba(calc(255 - var(--index) * 2),
+        calc(255 - var(--index) * 3),
+        calc(255 - var(--index) * 2));
+    filter: blur(0.1rem);
+    transform: translate(calc(var(--index) * var(--horizontal) * 0.1rem),
+        calc(var(--index) * var(--vertical) * 0.1rem)) scale(calc(1 + var(--index) * 0.01));
+    opacity: calc(1 / var(--index));
+  }
 }
