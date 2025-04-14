@@ -8,11 +8,9 @@ let iterationCount = 0;
 function getNewSelector(selector) {
   if (selector === "R") {
     return "G";
-  }
-  if (selector === "G") {
+  } else if (selector === "G") {
     return "B";
-  }
-  if (selector === "B") {
+  } else if (selector === "B") {
     return "R";
   }
 }
@@ -33,4 +31,4 @@ setInterval(() => {
   const xSelector = displacement.getAttribute("xChannelSelector");
   displacement.setAttribute("xChannelSelector", getNewSelector(xSelector));
   text.style.filter = textFilter;
-}, 150);
+}, 160);
