@@ -27,7 +27,7 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [ ] Fire Emblem Shrine
   - [ ] Dragon Ball Shrine
   - [ ] Evangelion Shrine
-  - [ ] Vaporwave Shrine?
+  - [ ] Retro Tech Shrine?
 - [x] Make blog page
 - [ ] Make art page
 - [x] Create a wii menu on the home page

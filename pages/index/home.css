@@ -50,17 +50,20 @@ a {
   display: flex;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  justify-content: space-between;
 }
 
-.container div {
-    margin: auto;
-}
-
-.find__me {
-  font-family: "Shantell Sans", cursive;
+.video {
+  text-align: right;
 }
 
 .about {
   font-family: "Shantell Sans", cursive;
   text-align: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.find__me a {
+  font-size: 1.5rem;
 }

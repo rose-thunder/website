@@ -1,8 +1,8 @@
 var canvas = document.getElementById("starfield");
 
-// get dimensions of body element
-var w = document.body.offsetWidth;
-var h = document.body.offsetHeight;
+// get dimensions of div element that starfield is in
+var w = document.getElementById("stars").offsetWidth;
+var h = document.getElementById("stars").offsetHeight;
 
 // detect device pixel ratio
 if (window.devicePixelRatio) {
