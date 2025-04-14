@@ -7,27 +7,26 @@ body {
   font-family: "UnifrakturMaguntia", system-ui;
   font-weight: 400;
   font-style: normal;
+  height: 100vh;
+
+  *::selection {
+    color: #222;
+    background: #cfb0d2;
+  }
+
+  *::-moz-selection {
+    color: #222;
+    background: #cfb0d2;
+  }
+
+  *::-webkit-selection {
+    color: #222;
+    background: #cfb0d2;
+  }
 }
 
-.light {
-  position: relative;
+.ghost {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 10rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &__copy {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    color: rgba(calc(255 - var(--index) * 2),
-        calc(255 - var(--index) * 3),
-        calc(255 - var(--index) * 2));
-    filter: blur(0.1rem);
-    transform: translate(calc(var(--index) * var(--horizontal) * 0.1rem),
-        calc(var(--index) * var(--vertical) * 0.1rem)) scale(calc(1 + var(--index) * 0.01));
-    opacity: calc(1 / var(--index));
-  }
 }

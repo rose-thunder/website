@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>transdevil.site</title>
+  <title>elli's web haven</title>
   <link href="pages/style.css" rel="stylesheet" type="text/css" />
   <link href="pages/index/home.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +16,6 @@
 
 <body style="margin: 0; height: 100vh">
   <header class="title">
-    <h1><i>elli's web haven</i></h1>
     <table class="pages">
       <tr>
         <td><a href="pages/blog/blog.html">my blog</a></td>
@@ -28,10 +27,22 @@
   </header>
   <main class="haven">
     <hr />
-    <div id="light" class="light" style="--horizontal: 1; --vertical: 1">
-      welcome to my website
-    </div>
-    <script src="pages/index/light.js"></script>
+    <div id="ghost" class="ghost">elli's web haven</div>
+    <svg id="svg" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="f1" x="0" y="0">
+          <feTurbulence id="turbulence" type="turbulence" baseFrequency="0.05" numOctaves="1" result="turbulence"
+            seed="0" />
+          <feDisplacementMap id="displacement" in2="turbulence" in="SourceGraphic" scale="30" xChannelSelector="R"
+            yChannelSelector="G" />
+          <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#799df1" flood-opacity="0.7" />
+          <feDropShadow dx="-2" dy="-2" stdDeviation="1" flood-color="#60c1ec" flood-opacity="0.7" />
+          <feDropShadow dx="2" dy="-2" stdDeviation="1" flood-color="#7bd9de" flood-opacity="0.7" />
+          <feDropShadow dx="-2" dy="2" stdDeviation="1" flood-color="#cfb0d2" flood-opacity="0.7" />
+        </filter>
+      </defs>
+    </svg>
+    <script src="pages/index/ghost.js"></script>
     <!-- <canvas id="starfield"></canvas> -->
     <!-- <script src="pages/index/starfield.js"></script>-->
     <hr />
