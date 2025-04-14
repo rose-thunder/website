@@ -1,92 +1,127 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>elli's web haven</title>
+    <link href="pages/style.css" rel="stylesheet" type="text/css" />
+    <link href="pages/index/home.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="site/assets/favicon.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>elli's web haven</title>
-  <link href="pages/style.css" rel="stylesheet" type="text/css" />
-  <link href="pages/index/home.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet" />
-  <link rel="icon" type="image/x-icon" href="site/assets/favicon.png" />
-</head>
+  <body style="margin: 0; height: 100vh">
+    <header class="title">
+      <nav class="navbar">
+        <table class="pages" cellspacing="10" cellpadding="10">
+          <tr>
+            <td><a href="pages/blog/blog.html">my blog</a></td>
+            <td><a href="pages/shrines/shrines.html">shrines</a></td>
+            <td><a href="pages/shrines/khonjin/main.html">khonjin house</a></td>
+            <td><a href="pages/shrines/minecraft/main.html">minecraft</a></td>
+          </tr>
+        </table>
+      </nav>
+    </header>
+    <main class="haven">
+      <br />
+      <div id="ghost" class="ghost">elli's web haven</div>
 
-<body style="margin: 0; height: 100vh">
-  <header class="title">
-    <nav class="navbar">
-      <table class="pages" cellspacing="10" cellpadding="10">
-        <tr>
-          <td><a href="pages/blog/blog.html">my blog</a></td>
-          <td><a href="pages/shrines/shrines.html">shrines</a></td>
-          <td><a href="pages/shrines/khonjin/main.html">khonjin house</a></td>
-          <td><a href="pages/shrines/minecraft/main.html">minecraft</a></td>
-        </tr>
-      </table>
-    </nav>
-  </header>
-  <main class="haven">
-    <br />
-    <div id="ghost" class="ghost">elli's web haven</div>
-
-    <svg id="svg" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="f1" x="0" y="0">
-          <feTurbulence id="turbulence" type="turbulence" baseFrequency="0.05" numOctaves="1" result="turbulence"
-            seed="0" />
-          <feDisplacementMap id="displacement" in2="turbulence" in="SourceGraphic" scale="30" xChannelSelector="R"
-            yChannelSelector="G" />
-          <feDropShadow dx="2" dy="2" stdDeviation="1" flood-color="#799df1" flood-opacity="0.7" />
-          <feDropShadow dx="-2" dy="-2" stdDeviation="1" flood-color="#60c1ec" flood-opacity="0.7" />
-          <feDropShadow dx="2" dy="-2" stdDeviation="1" flood-color="#7bd9de" flood-opacity="0.7" />
-          <feDropShadow dx="-2" dy="2" stdDeviation="1" flood-color="#cfb0d2" flood-opacity="0.7" />
-        </filter>
-      </defs>
-    </svg>
-    <script src="pages/index/ghost.js"></script>
-    <hr />
-    <div class="container">
-      <div class="find__me">
-        <h1>where you can find me</h1>
-        <ul>
-          <li>
-            <a href="https://bsky.app/profile/transdevil.site">bluesky</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@thetransdevil">youtube</a>
-          </li>
-          <li><a href="https://thetransdevil.tumblr.com/">tumblr</a></li>
-        </ul>
+      <svg id="svg" width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="f1" x="0" y="0">
+            <feTurbulence
+              id="turbulence"
+              type="turbulence"
+              baseFrequency="0.05"
+              numOctaves="1"
+              result="turbulence"
+              seed="0"
+            />
+            <feDisplacementMap
+              id="displacement"
+              in2="turbulence"
+              in="SourceGraphic"
+              scale="30"
+              xChannelSelector="R"
+              yChannelSelector="G"
+            />
+            <feDropShadow
+              dx="2"
+              dy="2"
+              stdDeviation="1"
+              flood-color="#799df1"
+              flood-opacity="0.7"
+            />
+            <feDropShadow
+              dx="-2"
+              dy="-2"
+              stdDeviation="1"
+              flood-color="#60c1ec"
+              flood-opacity="0.7"
+            />
+            <feDropShadow
+              dx="2"
+              dy="-2"
+              stdDeviation="1"
+              flood-color="#7bd9de"
+              flood-opacity="0.7"
+            />
+            <feDropShadow
+              dx="-2"
+              dy="2"
+              stdDeviation="1"
+              flood-color="#cfb0d2"
+              flood-opacity="0.7"
+            />
+          </filter>
+        </defs>
+      </svg>
+      <script src="pages/index/ghost.js"></script>
+      <hr />
+      <div class="container">
+        <div class="find__me">
+          <h1>where you can find me</h1>
+          <ul>
+            <li>
+              <a href="https://bsky.app/profile/transdevil.site">bluesky</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@thetransdevil">youtube</a>
+            </li>
+            <li><a href="https://thetransdevil.tumblr.com/">tumblr</a></li>
+          </ul>
+        </div>
+        <div class="video">
+          <h1>monthly video</h1>
+          <iframe
+            src="https://www.youtube.com/embed/Y4BUyWIpP7c?si=jTR2JZ5TS9bcR3Bl"
+            style="border: 0"
+          ></iframe>
+        </div>
       </div>
-      <div class="stars">
-        <canvas id="starfield"></canvas>
+      <hr />
+      <div class="about">
+        <h1>about me</h1>
+        <p>
+          Welcome to my website! This website is an online collection of myself.
+          This website is made by Elli, aka me, and I am a game developer,
+          writer, and an artist.
+          <br />
+          This is a complete rewrite of my
+          <a href="https://thetransgenderdevil.neocities.org/">old site</a>
+          from scratch. The reason for the complete rewrite is firstly, that
+          many pages contained outdated information. The outdated information
+          was littered everywhere so it would be hard to fix every tiny little
+          thing. Secondly, I didn't like the layout of my website at all.
+        </p>
       </div>
-      <script src="pages/index/starfield.js"></script>
-      <div class="video">
-        <h1>monthly video</h1>
-        <iframe src="https://www.youtube.com/embed/Y4BUyWIpP7c?si=jTR2JZ5TS9bcR3Bl" style="border: 0"></iframe>
-      </div>
-    </div>
-    <hr />
-    <div class="about">
-      <h1>about me</h1>
-      <p>
-        Welcome to my website! This website is an online collection of myself.
-        This website is made by Elli, aka me, and I am a game developer,
-        writer, and an artist.
-        <br />
-        This is a complete rewrite of my
-        <a href="https://thetransgenderdevil.neocities.org/">old site</a>
-        from scratch. The reason for the complete rewrite is firstly, that
-        many pages contained outdated information. The outdated information
-        was littered everywhere so it would be hard to fix every tiny little
-        thing. Secondly, I didn't like the layout of my website at all.
-      </p>
-    </div>
-  </main>
-  <footer></footer>
-</body>
-
+    </main>
+    <footer></footer>
+  </body>
 </html>
