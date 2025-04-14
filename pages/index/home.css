@@ -2,3 +2,14 @@ body {
   background: url(../../site/assets/forest-min.jpg);
   background-size: cover;
 }
+
+#tunnel {
+  position: absolute;
+  inset: 0;
+}
+
+.input {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
