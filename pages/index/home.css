@@ -32,7 +32,8 @@ body {
 }
 
 h1,
-li {
+li,
+p {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -49,4 +50,17 @@ a {
   display: flex;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.container div {
+    margin: auto;
+}
+
+.find__me {
+  font-family: "Shantell Sans", cursive;
+}
+
+.about {
+  font-family: "Shantell Sans", cursive;
+  text-align: center;
 }

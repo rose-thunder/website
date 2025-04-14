@@ -6,7 +6,7 @@ An _improved_ personal website that will host my projects, personal interests, a
 
 - [ ] Have an usable mobile experience
 - [x] Create scanlines in css
-- [ ] Create an about me section
+- [x] Create an about me section
 - [ ] Create a mailbox?
 - [ ] Make a web game?
 - [ ] Redesign my home page
