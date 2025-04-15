@@ -9,7 +9,7 @@ An _improved_ personal website that will host my projects, personal interests, a
 - [x] Create an about me section
 - [ ] Create a guestbook
 - [ ] Make a web game?
-- [ ] Redesign my home page
+- [x] Redesign my home page
 - [ ] Have a music player for specific pages
 
 ### Pages
@@ -30,7 +30,6 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [ ] Retro Tech Shrine?
 - [x] Make blog page
 - [ ] Make art page
-- [x] Create a wii menu on the home page
-- [x] Create screensaver thing on the home page
 - [ ] Make a cruated youtube recommendations list
 - [ ] Make a page for my WIP RPG Maker Game
+- [x] Create a changelog
