@@ -1,5 +1,5 @@
 body {
-  background: url(../../site/assets/labg.jpg);
+  background: #1c2833;
   color: #faf9f6;
 }
 
@@ -18,7 +18,7 @@ a {
   border: 3px solid #faf9f6;
   padding: 10px;
   border-radius: 15px;
-  background: url(../../site/assets/sky.png);
+  background: url(../../site/assets/labg.jpg);
 }
 
 .title {
@@ -34,9 +34,9 @@ a {
 main {
   display: flex;
   justify-content: center;
-  color: #4f666a;
+  color: #34495e;
 }
 
 main a {
-  color: #4f666a;
+  color: #34495e;
 }
