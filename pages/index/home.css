@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+
+body {
+  background: url(../../site/assets/dark-sky.gif);
+  overflow: hidden;
+  font-family: "UnifrakturMaguntia", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+
+  *::selection {
+    color: #222;
+    background: #cfb0d2;
+  }
+
+  *::-moz-selection {
+    color: #222;
+    background: #cfb0d2;
+  }
+
+  *::-webkit-selection {
+    color: #222;
+    background: #cfb0d2;
+  }
+}
+
+.ghost {
+  text-align: center;
+  filter: url(#f1);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10rem;
+}
+
+a {
+  color: rgba(174, 214, 241, 0.8);
+  text-decoration: none;
+}
+
+.pages td {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.video {
+  text-align: right;
+}
+
+.about {
+  font-family: "Shantell Sans", cursive;
+  text-align: center;
+  width: 50vw;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.find__me a {
+  font-size: 1.5rem;
+}
+
+.status {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+strong {
+  font-size: 1.5rem;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lists li {
+  text-align: left;
+}
