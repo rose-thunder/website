@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url(../../site/fonts/FiraCode-Retina.ttf) format("truetype");
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  background: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
