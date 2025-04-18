@@ -4,10 +4,9 @@ An _improved_ personal website that will host my projects, personal interests, a
 
 ## Todo List
 
-- [ ] Have an usable mobile experience
 - [x] Create scanlines in css
 - [x] Create an about me section
-- [ ] Create a guestbook
+- [ ] Create a guestbook?
 - [ ] Make a web game?
 - [x] Redesign my home page
 - [ ] Have a music player for specific pages
