@@ -26,7 +26,7 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [ ] Fire Emblem Shrine
   - [ ] Dragon Ball Shrine
   - [ ] Evangelion Shrine
-  - [ ] Retro Tech Shrine?
+  - [ ] Retro Tech Shrine
 - [x] Make blog page
 - [ ] Make art page
 - [ ] Make a cruated youtube recommendations list
