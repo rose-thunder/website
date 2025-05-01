@@ -29,6 +29,6 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [ ] Retro Tech Shrine
 - [x] Make blog page
 - [ ] Make art page
+- [ ] Make music page
 - [ ] Make a cruated youtube recommendations list
-- [ ] Make a page for my WIP RPG Maker Game
 - [x] Create a changelog
