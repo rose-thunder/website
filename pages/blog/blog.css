@@ -27,7 +27,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .post {
@@ -41,4 +41,10 @@ a {
 .post p {
   max-width: 50%;
   margin-block: 0.5em;
+  font-size: 18px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 20px;
 }
