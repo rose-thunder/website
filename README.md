@@ -17,7 +17,7 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [x] Khonjin House Shrine
   - [ ] LEGO Mega Shrine
     - [ ] Ninjago
-    - [ ] Bionicle + Hero Factory
+    - [ ] Bionicle & Hero Factory
   - [ ] Pikmin Shrine
   - [x] Minecraft Shrine
   - [ ] LISA RPG Shrine
