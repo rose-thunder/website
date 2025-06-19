@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
 body {
-  background: url(../../sitewite/assets/dark-sky.gif);
+  background: url(../sitewite/assets/dark-sky.gif);
   overflow: hidden;
   font-family: "UnifrakturMaguntia", system-ui;
   font-weight: 400;

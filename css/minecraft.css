@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Monocraft", monospace;
-  src: url(../../../sitewite/fonts/Monocraft.ttf) format("truetype");
+  src: url(../sitewite/fonts/Monocraft.ttf) format("truetype");
 }
 
 body {
   text-align: center;
   font-family: "Monocraft", monospace;
   color: white;
-  background: url(../../../sitewite/assets/dirt.webp);
+  background: url(../sitewite/assets/dirt.webp);
 }
 
 .logo img {
