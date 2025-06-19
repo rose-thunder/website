@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "VCR OSD Mono";
+  src: url(../sitewide/fonts/VCR_OSD_MONO.woff);
+}
+
+body {
+  background: url(../sitewide/assets/lisafeature.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: left;
+  font-family: "VCR OSD Mono", monospace;
+}
+
+.logo {
+  margin: auto;
+  width: 60%;
+  height: auto;
+  border: white solid thick;
+  border-radius: 20px;
+  background: black;
+}
+
+.logo img {
+  width: 60%;
+  height: auto;
+  margin: 10%;
+}
