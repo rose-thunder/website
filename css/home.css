@@ -13,11 +13,6 @@ body {
     background: #cfb0d2;
   }
 
-  *::-moz-selection {
-    color: #222;
-    background: #cfb0d2;
-  }
-
   *::-webkit-selection {
     color: #222;
     background: #cfb0d2;
