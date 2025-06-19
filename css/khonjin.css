@@ -1,5 +1,5 @@
 body {
-  background: url(../../../site/assets/pattern\ 463.jpg);
+  background: url(../../../sitewite/assets/pattern\ 463.jpg);
   color: black;
   text-align: center;
 }
@@ -8,7 +8,7 @@ body {
   max-width: 500px;
   height: auto;
   margin: auto;
-  background: url(../../../site/assets/gskbg.jpg);
+  background: url(../../../sitewite/assets/gskbg.jpg);
   border-radius: 25px;
 }
 
@@ -16,7 +16,7 @@ body {
   max-width: 500px;
   height: auto;
   margin: auto;
-  background: url(../../../site/assets/gskbg.jpg);
+  background: url(../../../sitewite/assets/gskbg.jpg);
   border-radius: 25px;
 }
 
@@ -30,7 +30,7 @@ a {
   width: auto;
   height: auto;
   margin: 20px auto;
-  background: url(../../../site/assets/gskbg.jpg);
+  background: url(../../../sitewite/assets/gskbg.jpg);
   border-radius: 25px;
 }
 
