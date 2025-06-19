@@ -2,7 +2,6 @@
 
 body {
   background: url(../sitewide/assets/dark-sky.gif);
-  overflow: hidden;
   font-family: "UnifrakturMaguntia", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -44,12 +43,13 @@ a {
   display: flex;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   color: rgba(255, 255, 255, 0.9);
 }
 
 .video {
-  text-align: right;
+  text-align: center;
 }
 
 .about {
@@ -71,6 +71,7 @@ a {
 
 img {
   margin: auto;
+  max-height: 315px;
 }
 
 strong {
