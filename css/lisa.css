@@ -7,7 +7,7 @@ body {
   background: url(../sitewide/assets/lisafeature.jpeg);
   background-size: cover;
   color: white;
-  text-align: left;
+  text-align: center;
   font-family: "VCR OSD Mono", monospace;
 }
 
@@ -18,10 +18,12 @@ body {
   border: white solid thick;
   border-radius: 20px;
   background: black;
+  display: flex;
+  justify-content: center;
 }
 
 .logo img {
   width: 60%;
   height: auto;
-  margin: 10%;
+  margin: 5%;
 }
