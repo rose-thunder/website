@@ -90,3 +90,28 @@ hr {
 .lists li {
   text-align: left;
 }
+
+.box {
+  border: white solid thin;
+  width: 50%;
+  margin: auto;
+  background: #26264d;
+}
+
+.find__me ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.find__me {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.about p {
+  max-width: 40vw;
+  margin: auto;
+}
