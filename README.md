@@ -7,9 +7,6 @@ An _improved_ personal website that will host my projects, personal interests, a
 - [x] Create scanlines in css
 - [x] Create an about me section
 - [x] Redesign my home page
-
-### Pages
-
 - [ ] Remake shrine pages from [old site](https://thetransgenderdevil.neocities.org/)
   - [x] Khonjin House Shrine
   - [ ] LEGO Mega Shrine
@@ -26,5 +23,6 @@ An _improved_ personal website that will host my projects, personal interests, a
   - [ ] Retro Tech Shrine
 - [x] Make blog page
 - [ ] Make art page
-- [ ] Make music page
 - [x] Create a changelog
+- [ ] Make a game dev page
+- [ ] Add more functionality to the site
