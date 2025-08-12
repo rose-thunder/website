@@ -14,7 +14,7 @@ An _improved_ personal website that will host my projects, personal interests, a
     - [ ] Bionicle & Hero Factory
   - [ ] Pikmin Shrine
   - [x] Minecraft Shrine
-  - [ ] LISA RPG Shrine
+  - [x] LISA RPG Shrine
 - [ ] Make new shrine pages
   - [ ] Kingdom Hearts Shrine
   - [ ] Fire Emblem Shrine
