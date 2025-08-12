@@ -22,8 +22,28 @@ body {
   justify-content: center;
 }
 
-.logo img {
+img {
   width: 60%;
   height: auto;
   margin: 5%;
+}
+
+.container {
+  display: block;
+}
+
+.triggerwarning {
+  font-size: 50px;
+  border: white solid thick;
+  border-radius: 20px;
+  background: black;
+  margin: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.triggerwarning span {
+  cursor: pointer;
 }
